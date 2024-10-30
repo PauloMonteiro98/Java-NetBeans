@@ -17,9 +17,9 @@ public class Banco {
 
     // Construtor
     public Banco() {
-        String url = "jdbc:mysql://biblioteca.c36nogcf3xn0.sa-east-1.rds.amazonaws.com:3306/biblioteca";
+        String url = "jdbc:mysql://biblioteca.c74ygm22cyzq.us-east-2.rds.amazonaws.com:3306/biblioteca";
         String usr = "admin";
-        String pas = "ifrn$2024";
+        String pas = "tsiturma2024";
         try {
             // Use o driver atualizado
             Class.forName("com.mysql.cj.jdbc.Driver");
